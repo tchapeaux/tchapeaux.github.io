@@ -1,0 +1,4 @@
+name: Intractable Thoughts
+markdown: redcarpet
+pygments: true
+exclude: ["blog.sublime-project", "blog.sublime-workspace"]

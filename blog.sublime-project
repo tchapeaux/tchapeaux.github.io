@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "./"
+		}
+	],
+    "build_systems":
+    [
+        // This will build your Jekyll site, and print a trace to the console
+        {
+            "name": "Jekyll",
+            // Change this directory to match your top-level Jekyll project folder
+            "working_dir": "$project_path",
+            "cmd": "jekyll build -t",
+            "shell": true,
+            "encoding": "UTF-8"
+        }
+    ]
+}
