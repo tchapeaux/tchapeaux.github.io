@@ -1,0 +1,23 @@
+- name: Super Communist
+  github_id: tchapeaux/super-communist
+  stackmachine_id: 4cacd90253f761b796fbef8e
+  short_descr: A small game about supernatural Robin Hood-ism, class struggle and optimal economic systems
+
+- name: PÖINTS
+  github_id: tchapeaux/love-7x7
+  stackmachine_id: 80d60da20c0780b5230007df
+  short_descr: A clone of the popular mobile game <a href='http://www.weplaydots.com'>DOTS</a>
+
+- name: Threes-AI
+  github_id: tchapeaux/py-threes
+  short_descr: An implementation of <a href='http://asherv.com/threes/'>THREES</a> in Python, with an AI that plays better than me.
+
+- name: BubblePÖP
+  github_id: tchapeaux/love-puzzle-bobble
+  short_descr: A clone of Puzzle Bobble where random bugs are actually a feature!
+  stackmachine_id: 0203c0eb907379ad4eee005c
+
+- name: Game Of LÖVE
+  github_id: tchapeaux/love-gameoflife
+  short_descr: An implementation of Conway's Game of Life with warm colors
+  stackmachine_id: 7f945bc1a8625d6ff6b18d09
