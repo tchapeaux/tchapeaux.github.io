@@ -19,8 +19,12 @@ Note that if you are looking at this in your browser you won't see it -->
 
         <article class="home">
 
-            <span class="post-date">
-                {% assign d = post.date | date: "%d" | plus:'0' %}
+            <h3>
+                <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+            </h3>
+
+            <span class="post-date"> <!-- date -->
+            {% assign d = post.date | date: "%d" | plus:'0' %}
                 {{ post.date | date: "%B" }}
                 {% case d %}
                   {% when 1 or 21 or 31 %}{{ d }}st,
@@ -30,10 +34,6 @@ Note that if you are looking at this in your browser you won't see it -->
                 {% endcase %}
                 {{ post.date | date: "%Y" }}
             </span>
-
-            <h2>
-                <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-            </h2>
 
             <div>
                 {% if post.fullview %}
