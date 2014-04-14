@@ -5,7 +5,11 @@ title: "Games"
 
 {% for game in site.data.games %}
     <h2>{{ game.name }}</h2>
-    <p>{{ game.short_descr }}
+    <p>
+    {% if game.logo_path %}
+    <img class="game_thumbnail" src="{{ game.logo_path }}" alt="{{ game.name logo}}"/><br/>
+    {% endif %}
+    {{ game.short_descr }}
     <ul>
         {% if game.github_id %}
             <li><a href="https://github.com/{{ game.github_id }}">Source (Github)</a></li>
@@ -16,4 +20,6 @@ title: "Games"
             <li><a href="https://stackmachine.com/games/{{ game.stackmachine_id }}/download/love">Download (.love file)</a></li>
         {% endif %}
     </ul>
+
+    <hline/>
 {% endfor %}
