@@ -1,23 +1,34 @@
 - name: Super Communist
   github_id: tchapeaux/super-communist
   stackmachine_id: 4cacd90253f761b796fbef8e
-  short_descr: A small game about supernatural Robin Hood-ism, class struggle and optimal economic systems
+  short_descr: Small game about supernatural Robin Hood-ism, class struggle and optimal economic systems
+  logo_path: assets/games_logo/supercommunist_logo.png
 
 - name: PÖINTS
   github_id: tchapeaux/love-7x7
   stackmachine_id: 80d60da20c0780b5230007df
-  short_descr: A clone of the popular mobile game <a href='http://www.weplaydots.com'>DOTS</a>
+  short_descr: Clone of the popular mobile game <a href='http://www.weplaydots.com'>DOTS</a>
+  logo_path: assets/games_logo/7x7icon.png
 
 - name: Threes-AI
   github_id: tchapeaux/py-threes
-  short_descr: An implementation of <a href='http://asherv.com/threes/'>THREES</a> in Python, with an AI that plays better than me.
-
-- name: BubblePÖP
-  github_id: tchapeaux/love-puzzle-bobble
-  short_descr: A clone of Puzzle Bobble where random bugs are actually a feature!
-  stackmachine_id: 0203c0eb907379ad4eee005c
+  short_descr: Implementation of <a href='http://asherv.com/threes/'>THREES</a> in Python, with an AI that plays better than me.
 
 - name: Game Of LÖVE
   github_id: tchapeaux/love-gameoflife
-  short_descr: An implementation of Conway's Game of Life with warm colors
+  short_descr: Implementation of Conway's Game of Life with warm colors
   stackmachine_id: 7f945bc1a8625d6ff6b18d09
+  logo_path: assets/games_logo/gameoflove_logo.png
+
+- name: TROVE
+  github_id: tchapeaux/love-trove
+  short_descr: Small game for two players inspired by the TRON movie
+  stackmachine_id: 40d50274b71e634e7de7c6d1
+  logo_path: assets/games_logo/trove_logo.png
+
+- name: BubblePÖP
+  github_id: tchapeaux/love-puzzle-bobble
+  short_descr: Clone of Puzzle Bobble where random bugs are actually a feature!
+  stackmachine_id: 0203c0eb907379ad4eee005c
+  logo_path: assets/games_logo/bubblepop_logo.png
+
