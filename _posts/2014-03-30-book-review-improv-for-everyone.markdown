@@ -4,7 +4,7 @@ title:  "Book Review: Improv for everyone"
 shortinfo: I read a book. It made me think stuff. Let's explore that!
 date:   2014-03-30 15:53:15
 categories: improv 
-tags:
+tags: improv
 ---
 
 ## My improv career so far
