@@ -17,13 +17,13 @@ TL;DR: click the thumbnail.
 
 [Portal](http://www.valvesoftware.com/games/portal.html) is still one of my favorite game ever. So when Valve announced [Portal 2](http://www.thinkwithportals.com/) back in 2010, I was very excited. So much that I decided to translate every promotional video on [my Youtube channel](http://www.youtube.com/watch?v=UVQ6mGATFAo&list=PLE9CDCB93C4AE5791) (yep, that's how I roll), which ended up super fun as their promotional videos were cute, inventive, and full of comedic timing (the most satisfying thing to get right with close-caption, in my opinion).
 
-I was achieving my self-imposed fanboy quest without fail, so when Valve released a [27 pages comic](http://www.thinkwithportals.com/comic/?l=en) to link the story of the two games one week before release, I knew what I had to do. Having little knowledge of comic translation, I downloaded a readable comic font, launched The Gimp and tried my best to fit my lengthy translation into the english-sized text bubbles. Three days later, I had it on a friend's server and posted it to a few places.
+I was achieving my self-imposed fanboy quest without fail, so back in 2011 when Valve released a [27 pages comic](http://www.thinkwithportals.com/comic/?l=en) to link the story of the two games one week before the game release, I knew what I had to do. Having little knowledge of comic translation, I downloaded a readable comic font, launched The Gimp and tried my best to fit my lengthy translation into the english-sized text bubbles. Three days later, I had it on a friend's server (with a custom Javascript gallery) and posted it to a few places.
 
-It got some views, then Valve posted an official translation and no one visited it ever again. Of course, I find my translation far more precise, natural and overall superior, but the official translation is good enough and true fans want to read the original anyway. I'm not complaining, it was a fun and challenging experience.
+It got some views, then two weeks later Valve posted an official translation and no one visited it ever again. Of course, being a little pedantic about translations, I find mine far more precise, natural and overall superior to the official one. But I'm not complaining, it was a fun and challenging experience.
 
-Anyway, I wanted to visit the gallery recently and found out it was no longer online. I lost track of the friend who hosted it so I put it on an [Imgur gallery](http://imgur.com/a/ExgIB) for easy access.
+Anyway, I wanted to see the online gallery recently and found out it was no longer available. I lost track of the friend who hosted it so I put it on an [Imgur gallery](http://imgur.com/a/ExgIB) for posterity.
 
-## Just for the fun: some nitpicks with the official translation
+## Just for fun: some nitpicks with the official translation
 
 Note that it's probably easy to do the same for mine. I don't know what sort of constraints and previous knowledge they had for the official translation, and I'm sure they did their best, but as a fan I have to second-guess some of their choices:
 
