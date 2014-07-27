@@ -3,8 +3,10 @@ pygments: true
 permalink: /posts/:title
 exclude: ["README.md", "blog.sublime-project", "blog.sublime-workspace"]
 rdiscount:
-  extensions: [smart]
-
+  extensions:
+    - autolink      # greedily urlify links
+    - footnotes     # footnotes
+    - smart         # typographic substitutions with SmartyPants
 name: Thomas Chapeaux
 url: http://thomaschapeaux.be
 description: I like clean code, doing improv, and YOU

@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "g()()()()('al') → 'gooooal' in Python"
+date:   2014-07-27 16:22:00
+categories: python
+tags:
+---
+
+(TL;DR: Multiple paragraphs over a 5-minutes-max brain teaser)
+
+I had a go at the `g()('al')` [challenge](https://github.com/eatnumber1/goal) by [eatnumber1](https://github.com/eatnumber1). The basic idea is to write a program where the expression `g()('al')` is interpreted as the string "goal" (with a variable number of empty parenthesis resulting in a variable number of o's).
+
+I wanted something small and pythonic. My first idea was to use lambdas, but this is of course not ideal as you need some sort of state to keep track of the number of o's. [One of the highlighted solutions](https://github.com/eatnumber1/goal/blob/master/solutions/complete/python/soln6/goal.py) does in fact uses a one-liner lambda (with recursive calls with different parameters to keep track of the state), which is a nice trick but does not seem easy to maintain.
+
+I think the most pythonic way to solve this problem is by defining a class (to maintain state) with a `__call__` method (to be used like a function), and successively returning new instances at each empty call, then a string at the last call. The new instances at each step allow us to not modify the base `g` instance and thus to produce multiple "goal" string without the need to reset the instance each time (we could also reset it each time the `__call__` function was called with a parameter, but this seemed less 'pure' to me).
+
+So, this gives us a pretty simple solution:
+
+{% highlight python %}
+class Goal(object):
+    def __init__(self, base='g'):
+        self.base = base
+    def __call__(self, end=None):
+        if end is None:
+            return Goal(self.base + 'o')
+        else:
+            return str(self.base + end)
+
+g = Goal()
+print(g()('al'))
+{% endhighlight %}
+
+(We do not check for bad input, nor any creative usage of the class)
+
+This was enough, but then I forgot about YAGNI and abstracted *everything*, which gave the following absurdity:
+
+<script src="https://gist.github.com/tchapeaux/f252d4fbe240651b1830.js"></script>
+
+Note that the [reference Python solution](https://github.com/eatnumber1/goal/blob/master/solutions/complete/python/soln1/goal.py) uses a function attribute updated at each intermediate call, which is of course perfectly fine in this context but seems unpythonic to me.
+
+I also liked [one of the highlighted solution in the challenge repository](https://github.com/eatnumber1/goal/blob/master/solutions/complete/python/soln3/goal.py), which defined a new class as a subclass of `str`, which gives a surprisingly simple code: whereas most solutions, including mine, include functions which return different types of output depending on their parameters (which is horrible code), this solution only need to define one possible behavior and ends up being more robust.
